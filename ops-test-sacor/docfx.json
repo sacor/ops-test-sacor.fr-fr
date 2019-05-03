@@ -1,0 +1,47 @@
+{
+  "build": {
+    "content": [
+      {
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ]
+      }
+    ],
+    "dest": "ops-test-sacor",
+    "externalReference": [],
+    "fileMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/ops-test-sacor/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "None"
+    },
+    "markdownEngineName": "markdig",
+    "overwrite": [],
+    "resource": [
+      {
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ],
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ]
+      }
+    ],
+    "template": []
+  }
+}
